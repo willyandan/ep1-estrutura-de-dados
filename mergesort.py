@@ -2,6 +2,7 @@ def mergeSort(vet):
     if(len(vet) < 2): return vet
     meio = len(vet)//2 
     return merge(rlist=mergeSort(vet[meio:]), llist=mergeSort(vet[:meio]))
+    
 def merge(rlist =[], llist = []):
     final = []
     while rlist and llist:
