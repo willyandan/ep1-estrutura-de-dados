@@ -1,6 +1,6 @@
 # EP 1 de Estrutura de dados
 
-## Introduction
+## Introdução
 
 > O EP consiste em testar e comparar vários algoritmos de ordenação sendo eles:
 > * Merge sort 
@@ -8,10 +8,6 @@
 > * Selection sort
 > * Nativo do python
 
-## Code Samples
-
-
-
-## Installation
+## Instalação
 
 > * [Python 3.x](https://www.python.org/download/releases/3.0/)
