@@ -3,10 +3,10 @@
 ## Introduction
 
 > O EP consiste em testar e comparar vários algoritmos de ordenação sendo eles:
-* Merge sort 
-* Quick sort
-* Selection sort
-* Nativo do python
+> * Merge sort 
+> * Quick sort
+> * Selection sort
+> * Nativo do python
 
 ## Code Samples
 
