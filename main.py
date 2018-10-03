@@ -6,15 +6,17 @@ def main():
     vetor = []
     total = 0
     i=0
-    print("="*66)
-    print("||"+"Teste de velocidade".center(62)+"||")
-    print("="*66)  
+    print("="*82)
+    print("||"+"Teste de velocidade".center(78)+"||")
+    print("="*82)  
     print("||"+
+        "Tamanho\t"+"||"+
         "Selection\t"+"||"+
         "Quick\t\t"+"||"+
         "Merge\t\t"+"||"+
-        "Native\t"+"||")
-    print("="*66)  
+        "Native\t"+"||"
+    )
+    print("="*82)  
     while total <= 30:
         geraVetor(vetor,i)
         i+=2000
@@ -24,13 +26,14 @@ def main():
         native_time = test(None,vet=vetor.copy())
         print(
             "||"+
+            "%i\t\t"%(len(vetor))+"||"+
             "%.2f\t\t"%selection_time+"||"+
             "%.2f\t\t"%quick_time+"||"+
             "%.2f\t\t"%merge_time+"||"+
             "%.2f\t\t"%native_time+"||"
         )
         total = selection_time + quick_time +  merge_time + native_time
-    print("="*66) 
+    print("="*82) 
 def geraVetor(vet, n):
     vetor = list(range(n, n+2000))
     random.shuffle(vetor)
